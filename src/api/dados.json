@@ -1,0 +1,320 @@
+{
+    "data": [
+        {
+            "id": 3,
+            "documentId": "ity6qaeu6kjd3c0b8dj8dqix",
+            "title": "Teste",
+            "slug": "teste",
+            "createdAt": "2024-12-04T12:23:21.885Z",
+            "updatedAt": "2024-12-04T13:00:45.046Z",
+            "publishedAt": "2024-12-04T13:01:04.993Z",
+            "footer_text": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "By Bycoding",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ],
+            "sections": [
+                {
+                    "__component": "section.section-two-columns",
+                    "id": 4,
+                    "title": "January brings us Firefox 85",
+                    "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.",
+                    "image": {
+                        "id": 3,
+                        "documentId": "uq1f745cd5e4zkul95l7opgl",
+                        "name": "javascript.svg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 1030,
+                        "height": 730,
+                        "formats": null,
+                        "hash": "javascript_1f1a295966",
+                        "ext": ".svg",
+                        "mime": "image/svg+xml",
+                        "size": 30.31,
+                        "url": "https://res.cloudinary.com/dnmkaachr/image/upload/v1733315188/javascript_1f1a295966.svg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                            "public_id": "javascript_1f1a295966",
+                            "resource_type": "image"
+                        },
+                        "createdAt": "2024-12-04T12:26:31.841Z",
+                        "updatedAt": "2024-12-04T12:26:31.841Z",
+                        "publishedAt": "2024-12-04T12:26:31.841Z"
+                    },
+                    "metadata": {
+                        "id": 14,
+                        "name": "home",
+                        "section_id": "home",
+                        "background": true
+                    }
+                },
+                {
+                    "__component": "section.section-content",
+                    "id": 5,
+                    "title": "news coverage and some surprises",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "children": [
+                                {
+                                    "text": "The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "children": [
+                                {
+                                    "text": "",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "children": [
+                                {
+                                    "text": "We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "children": [
+                                {
+                                    "text": "",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "children": [
+                                {
+                                    "text": "We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ],
+                    "metadata": {
+                        "id": 15,
+                        "name": "intro",
+                        "section_id": "intro",
+                        "background": false
+                    }
+                },
+                {
+                    "__component": "section.section-grid",
+                    "id": 7,
+                    "title": "My Grid",
+                    "description": "Uma breve descrição.",
+                    "text_grid": [
+                        {
+                            "id": 19,
+                            "title": "Teste 1",
+                            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+                        },
+                        {
+                            "id": 20,
+                            "title": "Teste 2",
+                            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+                        },
+                        {
+                            "id": 21,
+                            "title": "Teste 3",
+                            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+                        }
+                    ],
+                    "image_grid": [],
+                    "metadata": {
+                        "id": 17,
+                        "name": "Grid One",
+                        "section_id": "grid-one",
+                        "background": false
+                    }
+                },
+                {
+                    "__component": "section.section-grid",
+                    "id": 9,
+                    "title": "Gallery",
+                    "description": "Uma breve descrição.",
+                    "text_grid": [],
+                    "image_grid": [
+                        {
+                            "id": 19
+                        },
+                        {
+                            "id": 20
+                        },
+                        {
+                            "id": 21
+                        },
+                        {
+                            "id": 22
+                        },
+                        {
+                            "id": 23
+                        },
+                        {
+                            "id": 24
+                        }
+                    ],
+                    "metadata": {
+                        "id": 19,
+                        "name": "Gallery",
+                        "section_id": "gallery",
+                        "background": true
+                    }
+                },
+                {
+                    "__component": "section.section-grid",
+                    "id": 8,
+                    "title": "My Grid 2",
+                    "description": "Uma breve descrição.",
+                    "text_grid": [
+                        {
+                            "id": 22,
+                            "title": "Teste 1",
+                            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+                        },
+                        {
+                            "id": 23,
+                            "title": "Teste 2",
+                            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+                        },
+                        {
+                            "id": 24,
+                            "title": "Teste 3",
+                            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+                        }
+                    ],
+                    "image_grid": [],
+                    "metadata": {
+                        "id": 18,
+                        "name": "Grid Two",
+                        "section_id": "grid-two",
+                        "background": true
+                    }
+                },
+                {
+                    "__component": "section.section-content",
+                    "id": 6,
+                    "title": "Pricing",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "children": [
+                                {
+                                    "text": "The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "children": [
+                                {
+                                    "text": "",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "children": [
+                                {
+                                    "text": "We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ],
+                    "metadata": {
+                        "id": 16,
+                        "name": "Pricing",
+                        "section_id": "pricing",
+                        "background": false
+                    }
+                }
+            ],
+            "menu": {
+                "id": 3,
+                "logo_link": "#home",
+                "logo_text": "Logo",
+                "menu_links": [
+                    {
+                        "id": 12,
+                        "link_text": "intro",
+                        "url": "#intro",
+                        "open_in_new_tab": false
+                    },
+                    {
+                        "id": 13,
+                        "link_text": "grid-one",
+                        "url": "#grid-one",
+                        "open_in_new_tab": false
+                    },
+                    {
+                        "id": 14,
+                        "link_text": "gallery",
+                        "url": "#gallery",
+                        "open_in_new_tab": false
+                    },
+                    {
+                        "id": 15,
+                        "link_text": "grid-two",
+                        "url": "#grid-two",
+                        "open_in_new_tab": false
+                    },
+                    {
+                        "id": 16,
+                        "link_text": "pricing",
+                        "url": "#pricing",
+                        "open_in_new_tab": false
+                    }
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "documentId": "lzam8v6zb0ovovov353uuood",
+            "title": "teste2",
+            "slug": "teste2",
+            "createdAt": "2024-12-04T16:54:28.819Z",
+            "updatedAt": "2024-12-04T16:54:53.239Z",
+            "publishedAt": "2024-12-04T16:54:56.199Z",
+            "footer_text": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "By Bycoding",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ],
+            "sections": [],
+            "menu": null
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 2
+        }
+    }
+}

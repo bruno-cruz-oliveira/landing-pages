@@ -9,7 +9,7 @@ import babelParser from "@babel/eslint-parser";
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   {files: ["**/*.{js,mjs,cjs,jsx}"]},
-  {ignores: ["**/*.spec.jsx"]},
+  {ignores: ["**/*.spec.{jsx,js}", "**/*.test.{jsx,js}"]},
   {
     languageOptions: {
       parserOptions: {
