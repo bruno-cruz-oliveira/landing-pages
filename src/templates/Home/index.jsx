@@ -25,8 +25,8 @@ function Home() {
       //const slug = pathName ? pathName : 'landing-page';
 
       try {
-        const data = await fetch(`http://localhost:1337/api/pages?populate[sections][populate]=*&populate[menu][populate][0]=menu_links`);
-        const sectionsGridImage = await fetch(`http://localhost:1337/api/pages?populate[sections][on][section.section-grid][populate][image_grid][populate][1]=image`);
+        const data = await fetch(`https://strapi-landing-pages-d0cece866937.herokuapp.com/api/pages?populate[sections][populate]=*&populate[menu][populate][0]=menu_links`);
+        const sectionsGridImage = await fetch(`https://strapi-landing-pages-d0cece866937.herokuapp.com/api/pages?populate[sections][on][section.section-grid][populate][image_grid][populate][1]=image`);
 
         const json = await data.json();
         const jsonSectionsGridImage = await sectionsGridImage.json();
