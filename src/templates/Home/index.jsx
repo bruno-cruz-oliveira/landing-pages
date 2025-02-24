@@ -96,6 +96,8 @@ function Home() {
         if (component === 'section.section-grid-image') {
           return <GridImage key={key} {...section} />;
         }
+
+        return "";
       })}
     </Base>
   );

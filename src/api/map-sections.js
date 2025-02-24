@@ -103,7 +103,7 @@ export const mapSectionTwoColumns = (section = {}) => {
     } = section;
 
     const background = section?.metadata?.background.toString() || 'false';
-    let [ { image_grid } ] = sectionsGridImage? sectionsGridImage.filter(sectionGrid => sectionGrid.title == title) : [];
+    let [ { image_grid } ] = sectionsGridImage? sectionsGridImage.filter(sectionGrid => sectionGrid.title === title) : [];
   
     return {
         component: 'section.section-grid-image',

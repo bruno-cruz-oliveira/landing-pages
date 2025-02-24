@@ -10,7 +10,7 @@ export const GridTwoColumn = ({ title, text, srcImg, background = 'false', secti
     <SectionBackground background={background} sectionId={sectionId}>
       <Styled.Container background={background}>
         <Styled.TextContainer>
-          <Heading uppercase='true' color_dark={background == 'false'? 'true' : 'false'} as="h2">{title}</Heading>
+          <Heading uppercase='true' color_dark={background === 'false'? 'true' : 'false'} as="h2">{title}</Heading>
           <TextComponent>{text}</TextComponent>
         </Styled.TextContainer>
         <Styled.ImageContainer>

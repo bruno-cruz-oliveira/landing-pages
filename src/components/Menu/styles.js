@@ -33,7 +33,7 @@ export const Container = styled.div`
       height: 100vh;
       visibility: hidden;
       opacity: 0;
-      ${visible == 'true' && menuVisible(theme)}
+      ${visible === 'true' && menuVisible(theme)}
 
       > ${SectionContainer} {
         display: grid;
@@ -79,7 +79,7 @@ export const Button = styled.button`
     color: ${theme.colors.white};
     border: none;
     display: none;
-    pointer-events: ${visible == 'true' ? 'none' : 'all'};
+    pointer-events: ${visible === 'true' ? 'none' : 'all'};
 
     @media ${theme.media.lteMedium} {
       display: flex;

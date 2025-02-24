@@ -17,7 +17,7 @@ export const Menu = ({ links = [], logoData }) => {
         onClick={() => setVisible('true')}
         aria-label="Open/Close menu"
       >
-        {visible == 'true' ? (
+        {visible === 'true' ? (
           <CloseIcon aria-label="Close menu" />
         ) : (
           <MenuIcon aria-label="Open menu" />
